@@ -1,0 +1,97 @@
+.formControl {
+  margin: 50px;
+  font-size: medium;
+  justify-content: left;
+}
+
+.formControl label {
+  display: block;
+}
+
+.formControl .flexm {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(246, 254, 255);
+}
+
+.formControl .flexm:hover {
+  background-color: rgb(221, 236, 250);
+}
+
+.formControl .flexm .icon {
+  padding: 10px;
+}
+
+.formControl .flexm .input {
+  width: 100%;
+  padding: 10px;
+  justify-content: left;
+}
+
+.formControl {
+  margin: 0.5rem 0;
+}
+
+.formControl label {
+  font-weight: lighter;
+  display: block;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.formControl input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+}
+.formControl input:hover {
+  background-color: rgb(221, 236, 250);
+}
+
+.formControl input:focus {
+  outline: none;
+}
+
+.formControl.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.formControl.invalid label {
+  color: red;
+}
+
+.formControl.valid input {
+  border-color: rgb(0, 255, 21);
+}
+
+.formControl.valid label {
+  color: rgb(5, 238, 5);
+}
+
+.formControl p .remeber {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.formControl p .forget {
+  text-align: right;
+}
+
+.control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
+
+/* @media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+} */
